@@ -31,6 +31,6 @@ body{
 .card-img-top:hover{
     transform: scale(0.9);
 }
-.main-footer{
+footer{
     background-color: #343A40;
 }
