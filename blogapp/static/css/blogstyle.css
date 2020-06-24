@@ -32,5 +32,8 @@ body{
     transform: scale(0.9);
 }
 .social-menu{
-    color: black
+    color: green
+}
+#best{
+    color: black;
 }
