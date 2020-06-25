@@ -109,7 +109,7 @@ html {
     box-sizing: border-box;
 }
 
-article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+/* article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     display: block;
 }
 *, ::after, ::before {
@@ -133,7 +133,7 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 user agent stylesheet
 section {
     display: block;
-}
+} */
 
 
 
