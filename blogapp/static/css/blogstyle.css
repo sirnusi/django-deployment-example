@@ -107,7 +107,7 @@ html {
 *, ::after, ::before {
     box-sizing: border-box;
 }
-#specialone,.h4:hover{
+#specialone+.h4:hover{
     text-decoration: none;
 }
 
