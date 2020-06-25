@@ -6,21 +6,14 @@
 }
 /* #pictures{
     margin-top: 70px;
-}
+} */
 .jumbotron{
     margin-top: 70px;
 }
 
-.card-deck{
-    margin-bottom: 20px;
-    margin-top: 20px;
-    /* #343A40 */
-}
-.card-img-top{
-    transition: 1s ease-in-out;
-    background-color: #343A40;
-}
-.card-img-top:hover{
+
+    /* transition: 1s ease-in-out; */
+/* .card-img-top:hover{
     transform: scale(0.9);
-}
+} */
 
