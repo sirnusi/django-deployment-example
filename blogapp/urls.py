@@ -5,6 +5,7 @@ app_name = 'blogapp'
 
 urlpatterns = [
     path('politics/', views.politics, name='politics'),
+    path('aboutme/', views.about, name='aboutme'),
     path('business/', views.business, name='business'),
     path('tech/', views.technology, name='technology'),
     path('sports/', views.sports, name='sports'),
