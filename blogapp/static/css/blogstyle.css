@@ -49,8 +49,7 @@ section {
     display: block;
 }
 body {
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: normal;
     line-height: 1.5;
@@ -59,8 +58,7 @@ body {
 }
 body {
     margin: 0;
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
@@ -99,8 +97,7 @@ body {
     --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;
 }
 html {
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
@@ -234,22 +231,19 @@ section.newsletter input {
     padding: 0 15px;
     border: 1px solid #111;
     font-size: 1.1em;
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 300;
 }
 button, input {
     outline: none !important;
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 button, input {
     overflow: visible;
 }
 button, input, optgroup, select, textarea {
     margin: 0;
-    font-family: 'Pangolin', cursive;
-    font-family: 'Quicksand', sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: inherit;
     line-height: inherit;
 }
