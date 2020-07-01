@@ -16,7 +16,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 TEMPLATES_DIR = os.path.join(BASE_DIR, 'templates')
 STATIC_DIR = os.path.join(BASE_DIR, 'static')
-
+MEDIA_DIR = os.path.join(BASE_DIR, 'media')
 
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
@@ -88,7 +88,7 @@ DATABASES = {
 
         'HOST': '127.0.0.1',
 
-        'PORT': '55407',
+        'PORT': '5433',
     }
 }
 
@@ -132,4 +132,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATIC_FILES = [
     STATIC_DIR
+]
+MEDIA_FILES = [
+    MEDIA_DIR,
 ]
