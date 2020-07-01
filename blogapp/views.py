@@ -1,8 +1,10 @@
 from django.shortcuts import render
-
+from .models import Post
 # Create your views here.
 def index(request):
-    return render(request, 'blog_application/index.html')
+    latest = Post.objects.order_by('-timestamp')[0:3]
+    context = {'latest':latest}
+    return render(request, 'blog_application/index.html', context)
 
 def about(request):
     return render(request, 'blog_application/aboutme.html')
