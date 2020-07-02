@@ -53,7 +53,7 @@
       <p class="text-big">We have the latest posts from each categories</p>
     </header>
     <div class="row">
-      {% if obj in latest %}
+      {% for obj in latest %}
       <div class="post col-md-4">
         <div class="post-thumbnail"><a href="#"><img src="{{ obj.thumbnail.url }}" alt="..." class="img-fluid"></a></div>
         <div class="post-details">
@@ -69,10 +69,12 @@
           <p class="text-muted">{{obj.overview}}</p>
         </div>
       </div>
+      {% endfor %}
     </div>
-      {% endif %}
+    
     </div>
   </div>
+  
 </section>
 
 <section style="background-image: url(static/images/programming.jpg); background-size: cover; background-position: center;color: white;background-size: cover;" class="divider">
